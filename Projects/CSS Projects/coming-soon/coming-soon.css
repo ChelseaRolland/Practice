@@ -1,0 +1,31 @@
+body {
+    background-image: url("forest.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: 2em;
+}
+
+.general {
+    color: #FFF;
+    text-align: center;
+    text-indent: 50px;
+}
+
+.comingsoon-image {
+    background-image: url("forest.jpg");
+    background-color: #000000;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.soon-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+}
