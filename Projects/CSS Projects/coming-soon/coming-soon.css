@@ -1,8 +1,5 @@
 body {
-    background-image: url("forest.jpg");
     background-color: black;
-    background-repeat: no-repeat;
-    background-position: 2em;
 }
 
 .general {
@@ -28,4 +25,15 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #FFFFFF;
+    font-family: 'Cinzel', serif;
+
+}
+
+#coming-soon {
+    letter-spacing: .5em;
+    font-size: 2em;
+}
+
+#days-left {
+    font-style: italic;
 }
