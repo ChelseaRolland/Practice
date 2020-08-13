@@ -8,15 +8,17 @@
             width: 500px;
             height: 200px;
             border: 1px solid #000;
-            position: relative; /* Relative to where it was initailly positioned */
         }
         .box {
             background-color: #1969B2;
             height: 100px;
             width: 100px;
-            position: absolute; /* Means */
+            position: fixed;
             top: 10px;
             right: 10px;
+        }
+        #d1 {
+            min-height: 500px;
         }
     </style>
 </head>
@@ -24,5 +26,9 @@
 <div id="container">
     <div class="box"></div>
 </div>
+<div id="d1">
+    <h1>What is going on out there?</h1>
+</div>
+
 </body>
 </html>
