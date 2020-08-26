@@ -15,12 +15,12 @@
             font-family: 'Abel', sans-serif;
         }
         .whitespace{
-            height: 6em;
+            height: 4em;
         }
         .logo{
-            width: 11.5em;
-            height: 11.5em;
-            margin-top: -3em;
+            width: 105px;
+            height: 105px;
+            margin-top: -1em;
         }
         .top-header{
             font-size: 4em;
@@ -65,6 +65,9 @@
         .h-separator{
             border-top: #8F8A8E solid .5em;
         }
+        .mid-heading{
+            margin-top: 5.5em;
+        }
         .apple{
             border: #E6E9EB solid .75em;
             width:85%;
@@ -82,19 +85,86 @@
             align-items: center;
         }
         .icons {
-            width: 5vw;
-            height: 5vh;
-            font-size: 3vw;
-            color:#000;
-            text-align:center;
+            width: 18px;
+            height: 18px;
+            font-size: 12px;
+            color: #000;
+            text-align: center;
             line-height: 1.5;
-            padding: 1% 0;
             border-radius:50%;
             font-family: 'Anton', sans-serif;
             margin: 2px;
         }
         .icons-container{
             display: flex;
+        }
+        .small-picture{
+            width:50px;
+            height:50px;
+        }
+        .last-tweet{
+            padding: 0;
+        }
+        h4{
+            font-size: 1em;
+            /*font-weight: bold;*/
+        }
+        i{
+            color: dodgerblue;
+        }
+        .p-pic{
+            font-family: 'Anton', sans-serif;
+            margin-right: 10px;
+        }
+        .bird-line{
+            margin-top: 2em;
+        }
+        .last-bottom-line{
+            margin-bottom: 3em;
+            font-size: 1em;
+        }
+
+        /*small screens (sm)*/
+        @media (min-width: 576px) and (max-width: 767.98px) {
+            .header-list{
+                margin-top: -120px;
+                z-index: 10;
+                justify-content: space-around !important;
+            }
+            .header-tags:nth-child(2){
+                padding-right: 50px;
+            }
+            .header-tags:nth-child(3){
+                padding-left: 50px;
+            }
+            .whitespace{
+                z-index: -1;
+            }
+            .top-header{
+                font-size: 2em;
+                margin-top: 0;
+            }
+            #main-header{
+                font-size: 40px;
+                margin-top: 1em;
+                margin-left: -2.5em;
+                margin-right: -2.5em;
+            }
+            #sub-main-header{
+                font-size: 28px;
+            }
+            .circle-container{
+
+            }
+        }
+
+        /*medium screens (md)*/
+        @media (min-width: 768px) {
+
+        }
+        /*large screens and up (lg)*/
+        @media (min-width: 992px) {
+
         }
 
     </style>
@@ -111,7 +181,7 @@
             <div class="col-12 text-center">
                 <h1 class="top-header">codeup design</h1>
             </div>
-            <div class="col-12 text-center d-flex justify-content-center mb-5">
+            <div class="col-12 text-center d-flex justify-content-center mb-5 header-list">
                 <div class="header-tags">SERVICES</div>
                 <div class="header-tags">WORK</div>
                 <div class="header-tags">BLOG</div>
@@ -123,17 +193,19 @@
             <div class="col-12 text-center mb-5">
                 <h2 class="main-headings" id="sub-main-header">FROM PARK CITY, UTAH</h2>
             </div>
-            <div class="col-5 circle circle-1 text-center m-3">
-                <h3 class="main-headings cir-heading">DESIGN</h3>
-            </div>
-            <div class="col-5 circle circle-2 text-center m-3">
-                <h3 class="main-headings cir-heading">DEVELOP</h3>
-            </div>
-            <div class="col-5 circle circle-3 text-center m-3">
-                <h3 class="main-headings cir-heading">SUPPORT</h3>
-            </div>
-            <div class="col-5 circle circle-4 text-center m-3">
-                <h3 class="main-headings cir-heading">HOST</h3>
+            <div class="circle-container d-flex flex-wrap">
+                <div class="col-5 circle circle-1 text-center m-3">
+                    <h3 class="main-headings cir-heading">DESIGN</h3>
+                </div>
+                <div class="col-5 circle circle-2 text-center m-3">
+                    <h3 class="main-headings cir-heading">DEVELOP</h3>
+                </div>
+                <div class="col-5 circle circle-3 text-center m-3">
+                    <h3 class="main-headings cir-heading">SUPPORT</h3>
+                </div>
+                <div class="col-5 circle circle-4 text-center m-3">
+                    <h3 class="main-headings cir-heading">HOST</h3>
+                </div>
             </div>
             <div class="col-12 d-none d-md-block">
                 <hr class="h-separator">
