@@ -1,3 +1,8 @@
+
+
+
+
+
 function renderChoices(choice) {
     // var cardPicture = '';
     // function pickPic(object){

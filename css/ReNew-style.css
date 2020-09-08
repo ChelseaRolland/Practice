@@ -1,6 +1,10 @@
 body {
-    background-color: #F2D283;
-    background-image: url("../images/pexels-francesco-ungaro-1525041.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #B2BD7D;
+    /*background-image: url("../images/pexels-francesco-ungaro-1525041.jpg");*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+}
+#logo{
+    width: 100px;
+    height: 100px;
 }
